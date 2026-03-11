@@ -1,10 +1,8 @@
-# ☕ Mr. Bros Coffee — Power BI Sales Dashboard
+# ☕ Coffee Sales Performance and Trend Analysis
 
 > A comprehensive Power BI analytics dashboard designed to track and analyze coffee shop sales metrics, providing actionable business intelligence for operational decision-making, marketing optimization, and revenue analysis.
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
- <img src="dashboard.png" alt="Mr. Bros Coffee Dashboard" width="1200">
-</div>
+![Dashboard Preview Image](images/dashboard_preview.png)
 
 ---
 
@@ -150,12 +148,12 @@ RETURN "Data up to " & FORMAT(d, "dd-MMM-yyyy")
 
 **Step 1: Clone Repository**
 ```bash
-git clone https://github.com/Mohd-Atir/Mr.-Bros-Coffee-Dashboard.git
-cd Mr.-Bros-Coffee-Dashboard
+git clone https://github.com/Mohd-Atir/Coffee-Sales-Performance-and-Trend-Analysis.git
+cd Coffee-Sales-Performance-and-Trend-Analysis
 ```
 
 **Step 2: Prepare Power BI Project**
-- Open `MR_BROS_Coffee.pbix` in Power BI Desktop, OR
+- Open `coffee_sales_dashboard.pbix` in Power BI Desktop, OR
 - Create a new Power BI file and import data: `Get Data → CSV → coffee_sales_sample.csv`
 
 **Step 3: Apply Data Transformations**
@@ -201,8 +199,8 @@ cd Mr.-Bros-Coffee-Dashboard
 **Author:** Mohd Atir
 
 **Tools & Technologies:**
-- Power BI Desktop
-- Power Query (M Language)
+- Power BI
+- Power Query
 - DAX (Data Analysis Expressions)
 
 **License:** MIT License — Feel free to fork, modify, and use for educational and commercial purposes.
