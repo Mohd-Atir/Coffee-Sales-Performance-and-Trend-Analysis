@@ -154,7 +154,7 @@ cd Coffee-Sales-Performance-and-Trend-Analysis
 
 **Step 2: Prepare Power BI Project**
 - Open `coffee_sales_dashboard.pbix` in Power BI Desktop, OR
-- Create a new Power BI file and import data: `Get Data → CSV → coffee_sales_sample.csv`
+- Create a new Power BI file and import data: `Get Data → CSV → coffee_sales.csv`
 
 **Step 3: Apply Data Transformations**
 - Navigate to Power Query Editor
